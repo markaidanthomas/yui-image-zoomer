@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Single image zoom</title>
+<meta name="generator" content="TextMate http://macromates.com/">
+<meta name="author" content="Mark Thomas">
+<!-- Date: 2006-09-11 -->
+<script src="http://yui.yahooapis.com/2.4.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="yahoo_image_zoom.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://us.js2.yimg.com/us.js.yimg.com/lib/common/css/reset_2.0.5.css"> 
+<link rel="stylesheet" type="text/css" href="http://us.js2.yimg.com/us.js.yimg.com/lib/common/css/fonts_2.0.5.css"> 
+
+
+<script type="text/javascript">
+
+YAHOO.util.Event.onAvailable("zoomer", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer"), {width:250, height:188})});
+
+</script>
+<style type="text/css">
+.yZoomer {
+	position:absolute;
+	top:3em;
+	left:200px;
+}
+	.yZoomer span {
+		color:#333;
+		margin:1em;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+.yLoading {
+	background:#ccc;
+}
+	.yLoading img {
+		visibility:hidden;
+	}
+</style>
+</head>
+<body>
+
+<div id="zoomer" class="yZoomer"><img src="http://static.flickr.com/95/207208507_7b3b090ed1.jpg?v=0" />
+
+</body>
+</html>

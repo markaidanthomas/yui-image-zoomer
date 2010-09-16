@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Zoom several images</title>
+<meta name="generator" content="TextMate http://macromates.com/">
+<meta name="author" content="Mark Thomas">
+<!-- Date: 2006-09-11 -->
+<script src="http://yui.yahooapis.com/2.4.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="yahoo_image_zoom.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://us.js2.yimg.com/us.js.yimg.com/lib/common/css/reset_2.0.5.css"> 
+<link rel="stylesheet" type="text/css" href="http://us.js2.yimg.com/us.js.yimg.com/lib/common/css/fonts_2.0.5.css"> 
+
+
+<script type="text/javascript">
+
+YAHOO.util.Event.onAvailable("zoomer0", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer0"), {width:250, height:188})});
+YAHOO.util.Event.onAvailable("zoomer1", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer1"), {width:250, height:188, loadingMessage : "it's loading", increments : 15})});
+YAHOO.util.Event.onAvailable("zoomer2", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer2"), {width:250, height:188})});
+YAHOO.util.Event.onAvailable("zoomer3", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer3"), {width:250, height:188})});
+YAHOO.util.Event.onAvailable("zoomer4", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer4"), {width:250, height:188, loadingMessage : "hang on a tick"})});
+YAHOO.util.Event.onAvailable("zoomer5", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer5"), {width:250, height:188})});
+YAHOO.util.Event.onAvailable("zoomer6", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer6"), {width:250, height:188})});
+YAHOO.util.Event.onAvailable("zoomer7", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer7"), {width:250, height:188})});
+YAHOO.util.Event.onAvailable("zoomer8", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer8"), {width:250, height:188})});
+YAHOO.util.Event.onAvailable("zoomer9", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer9"), {width:250, height:188, delay:30})});
+YAHOO.util.Event.onAvailable("zoomer10", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer10"), {width:125, height:94})});
+YAHOO.util.Event.onAvailable("zoomer11", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer11"), {width:125, height:94})});
+YAHOO.util.Event.onAvailable("zoomer12", function(){new YAHOO.widget.ImageZoom(document.getElementById("zoomer12"), {width:125, height:94})});
+
+</script>
+<style type="text/css">
+.yZoomer {
+	position:relative;
+	float:left;
+}
+	.yZoomer span {
+		color:#333;
+		margin:1em;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+.yLoading {
+	background:#ccc;
+}
+	.yLoading img {
+		visibility:hidden;
+	}
+</style>
+</head>
+<body>
+<ul>
+	<li id="zoomer0" class="yZoomer"><img src="http://static.flickr.com/95/207208507_7b3b090ed1.jpg?v=0" /></li>
+	<li id="zoomer1" class="yZoomer"><img src="http://static.flickr.com/79/207200548_fc00cbadef.jpg?v=0" /></li>
+	<li id="zoomer2" class="yZoomer"><img src="http://static.flickr.com/70/207207290_29a8b7eaaa.jpg?v=0" /></li>
+	<li id="zoomer3" class="yZoomer"><img src="http://static.flickr.com/67/207211727_1628849e3e.jpg?v=0" /></li>
+	<li id="zoomer4" class="yZoomer"><img src="http://static.flickr.com/98/207217655_b55e67c533.jpg?v=0" /></li>
+	<li id="zoomer5" class="yZoomer"><img src="http://static.flickr.com/62/207212079_0e354f2e17.jpg?v=0" /></li>
+	<li id="zoomer6" class="yZoomer"><img src="http://static.flickr.com/73/207213917_55edc4e064.jpg?v=0" /></li>
+	<li id="zoomer7" class="yZoomer"><img src="http://static.flickr.com/60/207202158_611126ef2d.jpg?v=0" /></li>
+	<li id="zoomer8" class="yZoomer"><img src="http://static.flickr.com/85/207199213_51d9d5adb5.jpg?v=0" /></li>
+	<li id="zoomer9" class="yZoomer"><img src="http://static.flickr.com/60/207338464_2519fce8eb.jpg?v=0" /></li>
+	<li id="zoomer10" class="yZoomer"><img src="http://static.flickr.com/65/207207881_b6bc417b2a.jpg?v=0" /></li>
+	<li id="zoomer11" class="yZoomer"><img src="http://static.flickr.com/95/207208507_7b3b090ed1.jpg?v=0" /></li>
+	<li id="zoomer12" class="yZoomer"><img src="http://static.flickr.com/95/207208507_7b3b090ed1.jpg?v=0" /></li>
+</ul>
+</body>
+</html>
